@@ -1,0 +1,53 @@
+a:link, a:visited {
+    color:#515151
+}
+a:hover {
+    color:#98100c
+}
+
+header.global{
+    height:90px;
+    background: url("/static/themes/ouedx/images/bg_header.png") bottom left;
+}
+header.global.slim{
+    background: url("/static/themes/ouedx/images/bg_header.png") bottom left;
+}
+header.global .nav-global {
+  margin-top: 15px;
+}
+
+header.global .nav-global li a, header.global .nav-global div a {
+  display: block;
+  padding: 5px;
+  color: #fff !important;
+  font-weight: normal;
+}
+header.global .nav-global li a:visited {
+    color:#d3c49c !important
+}
+
+
+header.global.slim h2 {
+ 
+  color: #fff;
+ 
+  text-shadow: none;
+  
+}
+
+
+.wrapper-footer{
+  background-color: #383735;
+  color: #cccccc;
+}
+.wrapper-footer a:link,.wrapper-footer a:visited, .wrapper-footer span {
+  font-size: 11px;
+  line-height: 20px;
+  color: #cccccc;
+}
+
+.wrapper-footer  li {display:inline;  margin-right: 10px;}
+
+.content-wrapper{
+    padding-bottom:0
+}
